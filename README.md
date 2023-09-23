@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@deno/mod.js';
+import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@v0.1.0-deno/mod.js';
 ```
 
 #### isArrayLike( value )
@@ -79,7 +79,7 @@ var bool = isArrayLike( 'beep' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@deno/mod.js';
+import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@v0.1.0-deno/mod.js';
 
 var bool = isArrayLike( { 'length': 10 } );
 // returns true
