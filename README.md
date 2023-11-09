@@ -144,6 +144,7 @@ bool = isArrayLike( function noop() {} );
 
 -   <span class="package-name">[`@stdlib/assert-is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
 -   <span class="package-name">[`@stdlib/assert-is-array-like-object`][@stdlib/assert/is-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object.</span>
+-   <span class="package-name">[`@stdlib/assert-is-collection`][@stdlib/assert/is-collection]</span><span class="delimiter">: </span><span class="description">test if a value is a collection.</span>
 
 </section>
 
@@ -225,6 +226,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-array]: https://github.com/stdlib-js/assert-is-array
 
 [@stdlib/assert/is-array-like-object]: https://github.com/stdlib-js/assert-is-array-like-object
+
+[@stdlib/assert/is-collection]: https://github.com/stdlib-js/assert-is-collection
 
 <!-- </related-links> -->
 
