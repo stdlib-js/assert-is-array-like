@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-array-like/tags). For example,
+
+```javascript
 import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@v0.2.0-esm/index.mjs';
 ```
 
@@ -84,7 +89,7 @@ var bool = isArrayLike( 'beep' );
 <body>
 <script type="module">
 
-import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@v0.2.0-esm/index.mjs';
+import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@esm/index.mjs';
 
 var bool = isArrayLike( { 'length': 10 } );
 // returns true
