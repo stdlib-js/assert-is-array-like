@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@esm/index.mjs';
+import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@v0.2.2-esm/index.mjs';
 ```
 
 #### isArrayLike( value )
@@ -84,7 +84,7 @@ var bool = isArrayLike( 'beep' );
 <body>
 <script type="module">
 
-import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@esm/index.mjs';
+import isArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-like@v0.2.2-esm/index.mjs';
 
 var bool = isArrayLike( { 'length': 10 } );
 // returns true
